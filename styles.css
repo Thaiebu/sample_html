@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+}
+
+#coinkite-banner .banner-container {
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.4285em;
+    box-sizing: inherit;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.bcgold_maincontainer {
+    background-color: #101010;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.logo-heading {
+    color: rgba(244, 134, 13, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 130px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -2.36px;
+    line-height: 120px;
+    margin-top: 129px !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 38px !important;
+}
+
+.head-span {
+    color: #FAC152;
+}
+
+.logo-subtitle {
+    color: rgba(139, 139, 139, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin: 0;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.black_border {
+    border: 10px solid rgba(16, 16, 16, 1);
+}
+
+.bgcolors {
+    /* background: -webkit-linear-gradient(-25deg, #F4860D 50%, #FAC152 50%); */
+    /* background: #FAC152; */
+    display: flex;
+}
+
+.bgcolors .column {
+    padding: 0;
+}
+
+.bgcolors .banner1 {
+    width: 40%;
+    background: #F4860D;
+}
+
+.bgcolors .banner1 img {
+    margin-top: -81px;
+    margin-bottom: -20px;
+    width: 80%;
+}
+
+.bgcolors .banner2 {
+    background: #FAC152;
+    width: 40%;
+}
+
+.bgcolors .banner2 img {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.bgcolors .banner2 {
+    text-align: center;
+}
+
+.curve-line-image {
+    text-align: center;
+    display: inline-block;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.divider-line {
+    width: 20%;
+}
+
+.banner-section {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.banner-section img {
+    width: 100%;
+    margin-top: -56px;
+}
+
+.orderedlist-gold h3 {
+    color: rgba(244, 134, 13, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -0.64px;
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.bottom_container {
+    max-width: 942px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.orderedlist-gold ol {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.orderedlist-gold ol li {
+    border-radius: 54px;
+    background-color: rgba(28, 28, 28, 1);
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.44px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 30px 36px;
+    height: auto;
+    align-items: center;
+}
+
+.orderedlist-gold ol li .number-round {
+    background: #F4860D;
+    border-radius: 100%;
+    color: rgba(16, 16, 16, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    margin-right: 27px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.orderedlist-gold ol li:hover {
+    background: #F4860D;
+}
+
+.orderedlist-gold ol li:hover .number-round {
+    background: #000000;
+    color: #ffffff;
+}
+
+.winner_span {
+    margin: 166px 0 60px 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.span-border-winner {
+    border-radius: 100%;
+    width: 117px;
+    height: 117px;
+    display: inline-block;
+    border: 5px solid #fff;
+    background-color: transparent;
+}
+
+span.span-border-winner img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+span.span-border-winner.activewinner {
+    border: 5px solid rgba(244, 134, 13, 1);
+    background-color: rgba(216, 216, 216, 1);
+}
+
+.span-vs {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 39px;
+    position: relative;
+    top: 20px;
+}
+
+.winnerset h6 {
+    color: rgba(244, 134, 13, 1);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.36px;
+    text-align: center;
+    height: 20px;
+    margin: 0 0 21px 0;
+    line-height: normal;
+}
+
+.goldstandard_para {
+    width: 100%;
+    max-width: 771px;
+    margin: 0 auto;
+}
+
+.goldstandard_para p {
+    color: rgba(139, 139, 139, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.51px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.goldstandard_para .linkline-para {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.51px;
+    text-align: center;
+    line-height: 55px;
+    margin: 65px 0 150px 0;
+}
+
+.goldstandard_para .linkline-para a {
+    color: #F4860D;
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.51px;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: underline;
+}
+
+.footer-section {
+    background-color: rgba(28, 28, 28, 1);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-section p {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.18px;
+    text-align: center;
+    line-height: 58px;
+}
+
+@media only screen and (max-width: 990px) {
+    .logo-heading {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom_container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .orderedlist-gold ol li {
+        display: flex;
+        line-height: 30px;
+    }
+    .banner-section img {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .winner_span {
+        margin: 120px 0 60px 0;
+    }
+    .orderedlist-gold h3 {
+        margin-bottom: 40px;
+    }
+    .span-vs {
+        margin: 0 25px;
+    }
+    .orderedlist-gold h3 {
+        font-size: 26px;
+    }
+    .bottom_container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .logo-heading {
+        font-size: 40px;
+        margin-top: 60px !important;
+        line-height: 40px;
+    }
+    .logo-subtitle {
+        line-height: 34px;
+    }
+    .orderedlist-gold ol li {
+        align-items: center;
+        padding: 30px 20px;
+        font-size: 18px;
+    }
+    .orderedlist-gold ol li .number-round {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 20px;
+        padding: 0 10px;
+        display: inline-block;
+    }
+    .goldstandard_para .linkline-para a {
+        display: inherit;
+    }
+}
